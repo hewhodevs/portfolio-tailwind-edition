@@ -677,6 +677,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(163 163 255 / var(--tw-text-opacity));
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 html, body {
   scroll-behavior: smooth;
 }
