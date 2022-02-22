@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-tailwind-edition",
+  "version": "1.0.0",
+  "description": "portfolio website built with tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Kelly",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
