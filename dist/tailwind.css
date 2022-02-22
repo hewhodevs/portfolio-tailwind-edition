@@ -507,12 +507,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(23 23 31 / var(--tw-bg-opacity));
 }
 
-.text-selected-text {
-  --tw-text-opacity: 1;
-  color: rgb(163 163 255 / var(--tw-text-opacity));
+.font-poppins {
+  font-family: Poppins, sans-serif;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-selected-text {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 255 / var(--tw-text-opacity));
 }
