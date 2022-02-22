@@ -595,6 +595,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
