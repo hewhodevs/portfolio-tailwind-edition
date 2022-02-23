@@ -547,6 +547,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -1.5rem;
 }
 
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -559,12 +567,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
 
 .h-7 {
   height: 1.75rem;
+}
+
+.h-36 {
+  height: 9rem;
 }
 
 .w-full {
@@ -588,6 +604,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -602,6 +622,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-12 > :not([hidden]) ~ :not([hidden]) {
@@ -664,6 +688,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-nav {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 64 83 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .py-6 {
@@ -831,6 +865,10 @@ html, body {
     position: absolute;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .md\:my-36 {
     margin-top: 9rem;
     margin-bottom: 9rem;
@@ -848,6 +886,10 @@ html, body {
     margin-top: 0px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -858,6 +900,10 @@ html, body {
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-nowrap {
@@ -884,6 +930,10 @@ html, body {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .lg\:m-10 {
     margin: 2.5rem;
   }
@@ -896,8 +946,16 @@ html, body {
     margin-left: 5rem;
   }
 
+  .lg\:h-72 {
+    height: 18rem;
+  }
+
   .lg\:w-4 {
     width: 1rem;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:px-24 {
