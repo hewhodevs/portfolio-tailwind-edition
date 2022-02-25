@@ -30,7 +30,7 @@ html, body {
 }
 
 .section-paragraph {
-    @apply text-secondary my-6 w-full max-w-3xl;
+    @apply text-secondary my-6 w-full max-w-4xl;
 }
 
 .badge {
