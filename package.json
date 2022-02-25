@@ -4,7 +4,7 @@
   "description": "portfolio website built with tailwind css",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/index.css -o ./dist/tailwind.css --watch"
+    "build": "npx tailwindcss -i index.css -o tailwind.css --minify --watch"
   },
   "author": "Joshua Kelly",
   "license": "ISC",
