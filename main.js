@@ -1,4 +1,16 @@
 
+// ----------------------------------------------
+// view-work-button onclick handling
+// ----------------------------------------------
+const viewWorkButton = document.getElementById("view-work-button");
+viewWorkButton.onclick = () => {
+  document.getElementById('work').scrollIntoView();
+}
+
+
+// ----------------------------------------------
+// .nav-dot visual handling
+// ----------------------------------------------
 
 // Generates an array of titles, sorted by their current distance from the top of the page
 // The first element in this list, i.e. titles[0] is will hence be the section closest to the top
@@ -18,6 +30,11 @@ function updateList() {
   // style class to it's corresponding .nav-dot element.
 	document.querySelectorAll(".nav-dot")[[...document.querySelectorAll('h1, h2')].indexOf(titles[0])].classList.add("selected-circle");
 }
+
+
+// ----------------------------------------------
+// main
+// ----------------------------------------------
 
 // initial call on page load, selects the home section 
 // and highlights circle by default as closest to client top bounds.
