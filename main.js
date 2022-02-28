@@ -24,6 +24,8 @@ function updateList() {
 updateList();
 
 // updateList on scroll changes, causing next highest section to have its circle highlighted.
+// this also works when clicking on the .nav-dot elements, due to scroll-behaviour:smooth set
+// in index.css custom stylesheets
 window.addEventListener('scroll', () => {
     updateList();
 })
