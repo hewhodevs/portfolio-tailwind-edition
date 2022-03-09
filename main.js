@@ -1,8 +1,18 @@
+// Element constants
+const navMobileButton = document.getElementById("nav-mobile-button");
+const navList = document.getElementById("nav-list");
+const viewWorkButton = document.getElementById("view-work-button");
+
+// ----------------------------------------------
+// Toggle mobile menu on hamburger click
+// ----------------------------------------------
+navMobileButton.onclick = () => {
+  navList.classList.toggle("hidden");
+}
 
 // ----------------------------------------------
 // view-work-button onclick handling
 // ----------------------------------------------
-const viewWorkButton = document.getElementById("view-work-button");
 viewWorkButton.onclick = () => {
   document.getElementById('work').scrollIntoView();
 }
