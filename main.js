@@ -1,5 +1,6 @@
 // Element constants
 const navMobileButton = document.getElementById("nav-mobile-button");
+const navbar = document.getElementById("navbar");
 const navList = document.getElementById("nav-list");
 const viewWorkButton = document.getElementById("view-work-button");
 
@@ -7,6 +8,7 @@ const viewWorkButton = document.getElementById("view-work-button");
 // Toggle mobile menu on hamburger click
 // ----------------------------------------------
 navMobileButton.onclick = () => {
+  navbar.classList.toggle("border-b", "border-white");
   navList.classList.toggle("hidden");
 }
 
