@@ -8,8 +8,8 @@ const viewWorkButton = document.getElementById("view-work-button");
 // Toggle mobile menu on hamburger click
 // ----------------------------------------------
 navMobileButton.onclick = () => {
-  navbar.classList.toggle("border-b");
-  navbar.classList.toggle("border-white");
+  navbar.classList.toggle("border-b-2");
+  navbar.classList.toggle("border-theme");
   navList.classList.toggle("hidden");
 }
 
